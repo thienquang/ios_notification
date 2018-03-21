@@ -14,6 +14,16 @@
 		DD5707C820628BB700B3848E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5707C620628BB700B3848E /* LaunchScreen.storyboard */; };
 		DD5707D320628BB700B3848E /* HuliPizzaNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5707D220628BB700B3848E /* HuliPizzaNotificationTests.swift */; };
 		DD5707DE20628BB800B3848E /* HuliPizzaNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5707DD20628BB800B3848E /* HuliPizzaNotificationUITests.swift */; };
+		DD58F1112062B80900CDC7EA /* EHuliUke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD58F10F2062B80800CDC7EA /* EHuliUke.mp3 */; };
+		DD58F1122062B80900CDC7EA /* PizzaMovie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD58F1102062B80900CDC7EA /* PizzaMovie.mp4 */; };
+		DD58F11B2062BB6800CDC7EA /* MakePizza_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD58F1132062BB6500CDC7EA /* MakePizza_4.jpg */; };
+		DD58F11C2062BB6800CDC7EA /* MakePizza_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD58F1142062BB6500CDC7EA /* MakePizza_3.jpg */; };
+		DD58F11D2062BB6800CDC7EA /* MakePizza_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD58F1152062BB6500CDC7EA /* MakePizza_5.jpg */; };
+		DD58F11E2062BB6800CDC7EA /* MakePizza_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD58F1162062BB6600CDC7EA /* MakePizza_0.jpg */; };
+		DD58F11F2062BB6800CDC7EA /* MakePizza_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD58F1172062BB6600CDC7EA /* MakePizza_1.jpg */; };
+		DD58F1202062BB6800CDC7EA /* MakePizza_0.gif in Resources */ = {isa = PBXBuildFile; fileRef = DD58F1182062BB6700CDC7EA /* MakePizza_0.gif */; };
+		DD58F1212062BB6800CDC7EA /* MakePizza_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD58F1192062BB6700CDC7EA /* MakePizza_2.jpg */; };
+		DD58F1222062BB6800CDC7EA /* MakePizza_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD58F11A2062BB6800CDC7EA /* MakePizza_6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		DD5707D920628BB800B3848E /* HuliPizzaNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuliPizzaNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5707DD20628BB800B3848E /* HuliPizzaNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuliPizzaNotificationUITests.swift; sourceTree = "<group>"; };
 		DD5707DF20628BB800B3848E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD58F10F2062B80800CDC7EA /* EHuliUke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EHuliUke.mp3; sourceTree = "<group>"; };
+		DD58F1102062B80900CDC7EA /* PizzaMovie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PizzaMovie.mp4; sourceTree = "<group>"; };
+		DD58F1132062BB6500CDC7EA /* MakePizza_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MakePizza_4.jpg; sourceTree = "<group>"; };
+		DD58F1142062BB6500CDC7EA /* MakePizza_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MakePizza_3.jpg; sourceTree = "<group>"; };
+		DD58F1152062BB6500CDC7EA /* MakePizza_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MakePizza_5.jpg; sourceTree = "<group>"; };
+		DD58F1162062BB6600CDC7EA /* MakePizza_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MakePizza_0.jpg; sourceTree = "<group>"; };
+		DD58F1172062BB6600CDC7EA /* MakePizza_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MakePizza_1.jpg; sourceTree = "<group>"; };
+		DD58F1182062BB6700CDC7EA /* MakePizza_0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MakePizza_0.gif; sourceTree = "<group>"; };
+		DD58F1192062BB6700CDC7EA /* MakePizza_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MakePizza_2.jpg; sourceTree = "<group>"; };
+		DD58F11A2062BB6800CDC7EA /* MakePizza_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MakePizza_6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,7 @@
 		DD5707BC20628BB700B3848E /* HuliPizzaNotification */ = {
 			isa = PBXGroup;
 			children = (
+				DD58F10E2062B7EF00CDC7EA /* NotificationAssets */,
 				DD5707BD20628BB700B3848E /* AppDelegate.swift */,
 				DD5707BF20628BB700B3848E /* ViewController.swift */,
 				DD5707C120628BB700B3848E /* Main.storyboard */,
@@ -123,6 +144,23 @@
 				DD5707DF20628BB800B3848E /* Info.plist */,
 			);
 			path = HuliPizzaNotificationUITests;
+			sourceTree = "<group>";
+		};
+		DD58F10E2062B7EF00CDC7EA /* NotificationAssets */ = {
+			isa = PBXGroup;
+			children = (
+				DD58F10F2062B80800CDC7EA /* EHuliUke.mp3 */,
+				DD58F1102062B80900CDC7EA /* PizzaMovie.mp4 */,
+				DD58F1182062BB6700CDC7EA /* MakePizza_0.gif */,
+				DD58F1162062BB6600CDC7EA /* MakePizza_0.jpg */,
+				DD58F1172062BB6600CDC7EA /* MakePizza_1.jpg */,
+				DD58F1192062BB6700CDC7EA /* MakePizza_2.jpg */,
+				DD58F1142062BB6500CDC7EA /* MakePizza_3.jpg */,
+				DD58F1132062BB6500CDC7EA /* MakePizza_4.jpg */,
+				DD58F1152062BB6500CDC7EA /* MakePizza_5.jpg */,
+				DD58F11A2062BB6800CDC7EA /* MakePizza_6.jpg */,
+			);
+			path = NotificationAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +270,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD58F11C2062BB6800CDC7EA /* MakePizza_3.jpg in Resources */,
 				DD5707C820628BB700B3848E /* LaunchScreen.storyboard in Resources */,
+				DD58F11B2062BB6800CDC7EA /* MakePizza_4.jpg in Resources */,
+				DD58F1122062B80900CDC7EA /* PizzaMovie.mp4 in Resources */,
+				DD58F11E2062BB6800CDC7EA /* MakePizza_0.jpg in Resources */,
+				DD58F1222062BB6800CDC7EA /* MakePizza_6.jpg in Resources */,
 				DD5707C520628BB700B3848E /* Assets.xcassets in Resources */,
+				DD58F1112062B80900CDC7EA /* EHuliUke.mp3 in Resources */,
+				DD58F1212062BB6800CDC7EA /* MakePizza_2.jpg in Resources */,
+				DD58F11D2062BB6800CDC7EA /* MakePizza_5.jpg in Resources */,
+				DD58F1202062BB6800CDC7EA /* MakePizza_0.gif in Resources */,
+				DD58F11F2062BB6800CDC7EA /* MakePizza_1.jpg in Resources */,
 				DD5707C320628BB700B3848E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
